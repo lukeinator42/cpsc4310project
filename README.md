@@ -22,4 +22,12 @@ Once the embeddings are generated, the train_lstm_classifier.py script can be us
 
 ## CNN Spectrogram Classifier
 
-The cnn_classifier folder contains the scripts used to train a model directly on the audio spectrograms. The generate_spectrograms.py script can be used to convert the audio files into spectrograms. The keras_train.py script implements a model similar to the one used in the paper "Convolutional Neural Networks with Binaural Representations and Background Subtraction for Acoustic Scene Classification". The resnet_train.py script trains a model based on the [ResNet](https://arxiv.org/abs/1512.03385) architecture.  
+The cnn_classifier folder contains the scripts used to train a model directly on the audio spectrograms. The generate_spectrograms.py script can be used to convert the audio files into spectrograms. The keras_train.py script implements a model similar to the one used in the paper "Convolutional Neural Networks with Binaural Representations and Background Subtraction for Acoustic Scene Classification". The resnet_train.py script trains a model based on the [ResNet](https://arxiv.org/abs/1512.03385) architecture.
+
+## Examples
+
+The Wavenet Embedding Classifier and CNN Embedding Classifier folders contain example folders. In each example folder is an audio file, the corresponding embedding as a numpy array, and a script that classifies the embedding using a given model.
+
+## Logs
+
+The Wavenet Embedding Classifier and CNN Embedding Classifier folders have a logs folder that contains the training logs. These logs can be viewed using TensorBoard. 
