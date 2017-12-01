@@ -30,4 +30,8 @@ The Wavenet Embedding Classifier and CNN Embedding Classifier folders contain ex
 
 ## Logs
 
-The Wavenet Embedding Classifier and CNN Embedding Classifier folders have a logs folder that contains the training logs. These logs can be viewed using TensorBoard. 
+The Wavenet Embedding Classifier and CNN Embedding Classifier folders have a logs folder that contains the training logs. These logs can be viewed using TensorBoard.
+
+## Report
+
+The final report can be viewed [here](https://github.com/lukeinator42/cpsc4310project/raw/master/final_report.pdf).
