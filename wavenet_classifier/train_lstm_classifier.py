@@ -24,7 +24,7 @@ validation_labels = []
 
 label_to_index = {}
 
-foldName = 'fold2'
+foldName = 'fold3'
 
 pos=0
 with open('dcase_data/evaluation_setup/'+foldName+'_train.txt') as train_file:
